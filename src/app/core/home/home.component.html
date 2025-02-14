@@ -1,0 +1,37 @@
+<div>
+  <img src="/snoopy.jpeg" class="fixed top-10 left-10 w-72 h-64 animate-pulse object-fill" />
+  <img src="/snoopy-laying.jpeg" class="fixed bottom-10 right-10 w-72 h-64 animate-pulse object-fill" />
+  <img
+    src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWNrYzV6dDVlOGZmMGdzemlocWk4a2tiYzhoOW02c3B2dHl4Z2p4NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gpqk76tiVKjn2/giphy.gif"
+    class="fixed top-[15%] left-[39%]"
+  />
+
+  <h1 class="fixed text-6xl text-rose-500 top-[50%] left-[33%] font-semibold">
+    Will you be my valentine?
+  </h1>
+
+  <div class="mr-96">
+    <a
+      class="
+        fixed border rounded-md px-10 py-2 top-[60%] text-xl
+        transition duration-500 ease-in-out
+        bg-gradient-to-tr from-transparent to-transparent hover:from-red-100 hover:to-rose-300 hover:shadow-xl
+      "
+      [routerLink]="['/yippee']"
+    >
+      Yes
+    </a>
+
+    <button
+      class="
+        absolute border rounded-md px-10 py-2 text-xl cursor-pointer top-[60%] left-[55%]
+        transition-all duration-500 ease-in-out
+        bg-gradient-to-tr hover:from-red-100 hover:to-rose-300 hover:shadow-xl
+      "
+      id="declineBtn"
+      (click)="declinePressed()"
+    >
+      No
+    </button>
+  </div>
+</div>
