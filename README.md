@@ -1,59 +1,40 @@
-# Valentines
+# Valentines Site
+This is a cute site to ask a special someone to be your valentine! 
+Try it out [Here](https://valentine-site-pink.vercel.app/)!
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.3.
+Inspired by [Xeven777's Valentine Site](https://github.com/Xeven777/valentine) with
+my own personal touches and (primarily snoopy) theming.
 
-## Development server
+## Features
+ - "No" button runs away on hover
+ - Button gradients on hover to look cool for your special someone
+ - Snoopy theming and cute gifs
 
-To start a local development server, run:
+## Local Setup
+
+#### Clone the repository:
+
+```bash
+git clone https://github.com/Brendan-Smith529/valentine-site.git
+```
+
+or
+
+```bash
+git clone git@github.com:Brendan-Smith529/valentine-site.git
+```
+
+#### Download the necessary packages:
+
+```bash
+npm install
+```
+
+#### Run the server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Once the server is running, open your browser and navigate to
+`http://localhost:4200/` or click [Here](http://localhost:4200/).
